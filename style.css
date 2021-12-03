@@ -1,0 +1,23 @@
+.container {
+    /* display: flex; */
+    display: grid;
+    /* justify-content: end; */
+    /* justify-items: end; */
+    /* align-content: end; */
+    /* align-items: flex-end; */
+    grid-gap: 50px;
+    grid-auto-rows: minmax(0 auto);
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 2fr; */
+}
+.container div{
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: indianred; */
+    border: 1px solid black;
+    padding: 10px;
+}
+.item3 {
+    justify-self: center;
+    align-self: flex-end;
+}
